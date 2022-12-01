@@ -1,0 +1,14 @@
+{
+    "name": "benbinder/lamp-hw-platform",
+    "description": "Secure, lightweight platform for creating, editing, deploying, and grading simple online problem sets. Built on the LAMP stack with minimal dependencies.",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Ben Binder",
+            "email": "ben.binder11@gmail.com"
+        }
+    ]
+}

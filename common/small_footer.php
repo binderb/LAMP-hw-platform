@@ -1,0 +1,1 @@
+<p class="smallfooter">&copy;<?php echo date("Y");?> Ben Binder &nbsp;&nbsp; | &nbsp;&nbsp; All rights reserved.</p>

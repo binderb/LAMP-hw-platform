@@ -1,0 +1,12 @@
+{
+	"name" : "",
+	"short_name" : "",
+	"start_url" : ".",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"icons": [{
+    	"src": "",
+    	"sizes": "180x180",
+    	"type": "image/png"
+  	}]
+}

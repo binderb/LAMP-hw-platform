@@ -1,0 +1,1 @@
+This location holds structures associated with questions.

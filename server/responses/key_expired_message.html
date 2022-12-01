@@ -1,0 +1,22 @@
+<h1 style="margin-bottom:20px" id="title">Activation Key Expired</h1>
+<p>This activation link has expired because it's been more than 24 hours since it was issued.</p>
+<div id="responseblock" style="display:none;"></div>
+<div class="white_panel">
+        <a id="resend_link" href="" class="inline_link">Click here</a> for a new link!
+</div>
+<span style="display:block;height:100px;">&nbsp;</span>
+<script type="text/javascript">
+    $('#resend_link').click( function(e) {
+        e.preventDefault();
+        $("#responseblock").css("display","inline-block");
+        $("#responseblock").css("background-color","#60b369");
+        $("#responseblock").css("padding","15px");
+        $("#responseblock").html("<b>Sending...</b>");
+        $.ajax({
+            url: "resend_activation.php",
+            success: function(response) {
+                window.location.replace('./auth_response.php?result='+response);
+            }
+        });
+    });
+</script>

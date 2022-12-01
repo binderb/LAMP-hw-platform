@@ -1,0 +1,1 @@
+This location holds images associated with questions.

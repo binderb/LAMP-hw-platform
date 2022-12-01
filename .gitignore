@@ -1,0 +1,15 @@
+# MacOS
+.DS_Store/
+
+# composer
+vendor/
+composer.lock
+
+# .env
+.env
+
+# assets
+server/question_images/*
+!placeholder.md
+server/question_structures/*
+!placeholder.md
